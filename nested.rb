@@ -15,7 +15,8 @@ def hopper
           :languages => ["C"]
         }
      }
-programmer_hash.each do |name, language|
+     
+     programmer_hash.map do |name, language|
      if name == :grace_hopper
      return language
      end
