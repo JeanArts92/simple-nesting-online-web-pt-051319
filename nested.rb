@@ -16,9 +16,10 @@ def hopper
         }
      }
 programmer_hash.each do |name, language|
-     new_value = []
+     programmer_hash.map do |name, language|
+     
      if name == :grace_hopper
-     return new_value << language
+     return language
      end
      end 
 
