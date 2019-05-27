@@ -24,7 +24,11 @@ def hopper
 
 end
 
-def alan_kay_is_known_for
+def alan_kay_is_known_forprogrammer_hash.map do |name, language|
+     if name == :alan_kay
+     return language
+     end
+     end 
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 	
 	programmer_hash = 
