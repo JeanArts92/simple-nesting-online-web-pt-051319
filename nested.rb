@@ -61,6 +61,11 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+     programmer_hash.map do |name, language|
+     if name == :dennis_ritchie
+     return language.
+     end
+     end 
 end
 
 def adding_matz
